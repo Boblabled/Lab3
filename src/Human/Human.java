@@ -28,7 +28,7 @@ public abstract class Human implements Command, Calculations {
     }
 
     public void executeCommand(String command){
-        System.out.println("объект " + this.name + " выполнил команду: " + command);
+        System.out.println("Объект " + this.name + " выполнил команду: " + command);
     }
 
     public void calculate(Methods calculation, String object) {
