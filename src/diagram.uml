@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="611.0">ThingLike.Cord</node>
+    <node x="192.0" y="667.0">ThingLike.Cave</node>
+    <node x="476.0" y="622.0">ThingLike.WeightlessnessDevise</node>
+    <node x="234.0" y="0.0">Interfaces.Command</node>
+    <node x="704.0" y="667.0">ThingLike.Moon</node>
+    <node x="298.0" y="633.5">ThingLike.Rocket</node>
+    <node x="116.0" y="385.0">HumanLike.Znayka</node>
+    <node x="310.5" y="484.0">Thing.Thing</node>
+    <node x="0.0" y="11.0">Interfaces.Calculations</node>
+    <node x="0.0" y="822.0">Interfaces.Methods</node>
+    <node x="116.5" y="126.0">Human.Human</node>
+    <node x="234.0" y="385.0">HumanLike.Fucsia</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ThingLike.WeightlessnessDevise" target="Thing.Thing">
+      <point x="0.0" y="-72.0" />
+      <point x="580.0" y="591.0" />
+      <point x="403.6" y="591.0" />
+      <point x="26.600000000000023" y="38.5" />
+    </edge>
+    <edge source="ThingLike.Moon" target="Thing.Thing">
+      <point x="0.0" y="-27.0" />
+      <point x="750.0" y="581.0" />
+      <point x="430.2" y="581.0" />
+      <point x="53.19999999999999" y="38.5" />
+    </edge>
+    <edge source="ThingLike.Rocket" target="Thing.Thing">
+      <point x="0.0" y="-60.5" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="Human.Human" target="Interfaces.Calculations">
+      <point x="-53.5" y="-104.5" />
+      <point x="170.0" y="101.0" />
+      <point x="107.0" y="101.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="HumanLike.Fucsia" target="Human.Human">
+      <point x="0.0" y="-27.0" />
+      <point x="282.0" y="360.0" />
+      <point x="277.0" y="360.0" />
+      <point x="53.5" y="104.5" />
+    </edge>
+    <edge source="ThingLike.Cave" target="Thing.Thing">
+      <point x="0.0" y="-27.0" />
+      <point x="235.0" y="591.0" />
+      <point x="350.4" y="591.0" />
+      <point x="-26.600000000000023" y="38.5" />
+    </edge>
+    <edge source="HumanLike.Znayka" target="Human.Human">
+      <point x="0.0" y="-27.0" />
+      <point x="165.0" y="360.0" />
+      <point x="170.0" y="360.0" />
+      <point x="-53.5" y="104.5" />
+    </edge>
+    <edge source="ThingLike.Cord" target="Thing.Thing">
+      <point x="0.0" y="-83.0" />
+      <point x="86.0" y="581.0" />
+      <point x="323.8" y="581.0" />
+      <point x="-53.19999999999999" y="38.5" />
+    </edge>
+    <edge source="Human.Human" target="Interfaces.Command">
+      <point x="53.5" y="-104.5" />
+      <point x="277.0" y="101.0" />
+      <point x="340.0" y="101.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="762.2222222222229" y="455.5555555555556" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
