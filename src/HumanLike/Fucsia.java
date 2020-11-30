@@ -4,7 +4,7 @@ import Human.Human;
 
 public class Fucsia extends Human {
     public Fucsia() {
-        name = "Фуксия";
+        setName("Фуксия");
         System.out.println(toString());
     }
 

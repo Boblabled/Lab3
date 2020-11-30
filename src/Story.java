@@ -19,17 +19,15 @@ public class Story {
                 System.out.println();
                 znayka.calculate(PRACTICAL, cordHave.name);
                 cordHave.lengthDouble();
-                System.out.println();
             }
             else {
                 System.out.println("шнуры равны");
-                System.out.println();
             }
         }
         else {
             System.out.println("шнуры равны");
-            System.out.println();
         }
+        System.out.println();
 
         Rocket rocket = new Rocket();
         Cave cave = new Cave();
@@ -55,7 +53,7 @@ public class Story {
 
         System.out.println();
 
-        Moon moon =new Moon();
+        Moon moon = new Moon();
         rocket.separate(moon.name);
         rocket.rise("вверх");
     }

@@ -5,7 +5,7 @@ import Interfaces.Methods;
 
 public class Znayka extends Human {
     public Znayka() {
-        name = "Знайка";
+        setName("Знайка");
         System.out.println(toString());
     }
 }

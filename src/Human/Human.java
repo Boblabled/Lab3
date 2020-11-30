@@ -4,7 +4,11 @@ import Interfaces.Command;
 import Interfaces.Methods;
 
 public abstract class Human implements Command, Calculations {
-    public String name = "Имя";
+    private String name = "Имя";
+
+    public void setName(String name){
+        this.name = name;
+    }
 
     @Override
     public String toString() {
