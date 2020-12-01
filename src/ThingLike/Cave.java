@@ -4,7 +4,7 @@ import Thing.Thing ;
 
 public class Cave extends Thing {
     public Cave() {
-        name = "Пещера";
+        setName("Пещера");
         System.out.println(toString());
     }
 }

@@ -7,18 +7,18 @@ public class Cord extends Thing {
 
     public Cord(String name, int length) {
         this.length = length;
-        this.name = name;
+        setName(name);
         System.out.println(toString());
     }
 
     public void lengthDouble() {
         this.length = this.length * 2;
-        System.out.println(this.name + " увеличить вдвое до значения " + this.length + " шагов");
+        System.out.println(getName() + " увеличить вдвое до значения " + this.length + " шагов");
     }
 
     public void lengthTriple() {
         this.length = this.length * 3;
-        System.out.println(this.name + " увеличить втрое до значения " + this.length + " шагов");
+        System.out.println(getName()+ " увеличить втрое до значения " + this.length + " шагов");
     }
 
     @Override

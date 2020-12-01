@@ -4,19 +4,19 @@ import Thing.Thing ;
 
 public class Rocket extends Thing {
     public Rocket() {
-        name = "Ракета";
+        setName("Ракета");
         System.out.println(toString());
     }
 
     public void bind(String object){
-        System.out.println("Объект " + this.name + " был привязан объектом " + object);
+        System.out.println("Объект " + getName() + " был привязан объектом " + object);
     }
 
     public void separate(String object){
-        System.out.println("Объект " + this.name + " отделился от объекта " + object);
+        System.out.println("Объект " + getName() + " отделился от объекта " + object);
     }
 
     public void rise(String direction){
-        System.out.println("Объект " + this.name + " поднялся " + direction);
+        System.out.println("Объект " + getName() + " поднялся " + direction);
     }
 }

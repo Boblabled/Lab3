@@ -1,13 +1,15 @@
 package Human;
-import Interfaces.Calculations;
 import Interfaces.Command;
-import Interfaces.Methods;
 
-public abstract class Human implements Command, Calculations {
+public abstract class Human implements Command {
     private String name = "Имя";
 
     public void setName(String name){
         this.name = name;
+    }
+
+    public String getName(){
+        return this.name;
     }
 
     @Override
@@ -33,9 +35,5 @@ public abstract class Human implements Command, Calculations {
 
     public void executeCommand(String command){
         System.out.println("Объект " + this.name + " выполнил команду: " + command);
-    }
-
-    public void calculate(Methods calculation, String object) {
-        System.out.println(this.name + " произвёл " + calculation + " объекта " + object);
     }
 }
