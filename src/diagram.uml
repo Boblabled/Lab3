@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="574.0">ThingLike.Cord</node>
+    <node x="192.0" y="585.0">ThingLike.WeightlessnessDevise</node>
+    <node x="234.0" y="0.0">Interfaces.Command</node>
+    <node x="437.0" y="596.5">ThingLike.Rocket</node>
+    <node x="640.0" y="403.0">Enum.Methods</node>
+    <node x="0.0" y="11.0">Interfaces.Calculations</node>
+    <node x="224.0" y="403.0">Thing.Thing</node>
+    <node x="116.5" y="126.0">Human.Human</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ThingLike.WeightlessnessDevise" target="Thing.Thing">
+      <point x="0.0" y="-72.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="ThingLike.Rocket" target="Thing.Thing">
+      <point x="0.0" y="-60.5" />
+      <point x="516.0" y="549.0" />
+      <point x="358.16666666666663" y="549.0" />
+      <point x="53.66666666666663" y="60.5" />
+    </edge>
+    <edge source="Human.Human" target="Interfaces.Calculations">
+      <point x="-53.5" y="-116.0" />
+      <point x="170.0" y="101.0" />
+      <point x="107.0" y="101.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="ThingLike.Cord" target="Thing.Thing">
+      <point x="0.0" y="-83.0" />
+      <point x="86.0" y="549.0" />
+      <point x="250.83333333333331" y="549.0" />
+      <point x="-53.666666666666686" y="60.5" />
+    </edge>
+    <edge source="Human.Human" target="Interfaces.Command">
+      <point x="53.5" y="-116.0" />
+      <point x="277.0" y="101.0" />
+      <point x="340.0" y="101.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="812.0" y="455.5555555555556" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
